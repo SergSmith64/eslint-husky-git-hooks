@@ -22,5 +22,14 @@
   "bugs": {
     "url": "https://github.com/SergSmith64/eslint-husky-git-hooks/issues"
   },
-  "homepage": "https://github.com/SergSmith64/eslint-husky-git-hooks#readme"
+  "homepage": "https://github.com/SergSmith64/eslint-husky-git-hooks#readme",
+  "devDependencies": {
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb": "^18.1.0",
+    "eslint-config-prettier": "^6.10.1",
+    "eslint-plugin-html": "^6.0.0",
+    "eslint-plugin-import": "^2.20.2",
+    "eslint-plugin-prettier": "^3.1.2",
+    "prettier": "^2.0.2"
+  }
 }
