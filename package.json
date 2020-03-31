@@ -4,7 +4,8 @@
   "description": "Code style",
   "main": "index.js",
   "scripts": {
-    "test": "test"
+    "lint": "eslint ./src",
+    "lint:fix": "eslint ./src --fix"
   },
   "repository": {
     "type": "git",

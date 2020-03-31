@@ -11,3 +11,8 @@
 8. npm i --save-dev prettier
 
 create .eslintrc in root
+
+npm run lint
+npm run lint:fix
+
+install VSCode-plugin "ESLint" (ver 2.1.2)
