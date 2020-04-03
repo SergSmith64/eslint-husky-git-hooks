@@ -1,3 +1,26 @@
 {
-  "extends": ["airbnb/base"]
+	"env": {
+		"browser": true,
+		"es6": true,
+		"node": true
+	},
+	"extends": ["airbnb/base"],
+
+	// __ RULES - custom settings in project __
+	"rules": {
+		// __ SEMI -- ';' should be at the end of the LINE
+		"semi": "off",
+		"no-plusplus": "off",
+		// __ EOL-LAST -  empty line should be at the end of the FILE
+		"eol-last": "off",
+		// "no-console": "off"
+		//  __ set the maximum string length = 150
+		"max-len": ["error", 150, { "ignoreUrls": true }],
+		"no-tabs": "off",
+		"indent": ["off", "tab"],
+		"arrow-body-style":"off",
+		// __ comma at the end of each line __
+		"comma-dangle":"off",
+		"prefer-destructuring":"off"
+	}
 }

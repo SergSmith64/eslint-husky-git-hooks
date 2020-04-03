@@ -1,5 +1,10 @@
+/* eslint-disable arrow-parens */
+/* eslint-disable quotes */
 const a = 1;
-const x = 200;
+
+let x = 200;
+
+x++;
 
 function foo(name) {
   const lastName = name;
@@ -7,6 +12,19 @@ function foo(name) {
   return lastName + n;
 }
 
-foo('John');
+foo("John");
 
-// console.log(x, a);
+// ___window___ - "browser": true
+// eslint-disable-next-line no-console
+console.log(x, a);
+// console.log(window)
+
+const arrow = y => {
+  return y + 1;
+};
+arrow(2);
+
+const obj = {
+  name: "Bob"
+};
+obj.name = "Ken";

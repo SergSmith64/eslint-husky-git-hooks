@@ -1,4 +1,5 @@
 # eslint-husky-git-hooks
+
 Сode style
 
 1. npm i --save-dev eslint
@@ -13,6 +14,11 @@
 create .eslintrc in root
 
 npm run lint
+
 npm run lint:fix
 
 install VSCode-plugin "ESLint" (ver 2.1.2)
+
+environment setting ESLint in .eslintrc
+
+rules, environment, editor settings
